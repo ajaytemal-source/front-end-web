@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: red;
+    letter-spacing: 5px;
+  }
+  
+  
+  h1 {
+    color: red;
+     margin: 50px;
+    letter-spacing: 50px;
+    line-height: 30px;
+  }
+  
+  
+  h2 {
+    color: red;
+    letter-spacing: 30px;
+  }
+  
+  

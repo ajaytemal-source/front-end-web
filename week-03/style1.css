@@ -1,0 +1,31 @@
+body {
+    background-color: #efeadc;
+    color: black;
+    font-family: "Story Script"
+  }
+  
+  
+  h1 {
+    color: blue;
+  }
+  
+  
+  h2 {
+    color: blue;
+  }
+
+  .message {
+    padding: 30px;
+    border: 2px solid black;
+    margin: 40px;
+  }
+  
+
+  
+  .story-script-regular {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
