@@ -1,0 +1,39 @@
+body {
+  margin: 40px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.burgers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger .bun,
+.burger .block {
+padding: 10px;
+}
+
+.bun {
+  background-color: #e8b86d;
+}
+
+.cheese {
+  background-color: #ffd966;
+}
+
+.lettuce {
+  background-color: #7cb342;
+}
+
+.meat {
+  background-color: #8d4e37;
+}
