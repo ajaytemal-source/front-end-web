@@ -37,3 +37,9 @@ padding: 10px;
 .meat {
   background-color: #8d4e37;
 }
+
+@media (max-width: 700px){
+   .burgers {
+    grid-template-columns: 1fr;
+   }
+}
