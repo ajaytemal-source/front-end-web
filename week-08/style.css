@@ -1,0 +1,45 @@
+html {
+  min-height: 100vh;
+  background-color: #1f305e;
+}
+
+body {
+  width: 85%;
+  max-width: 600px;
+  margin: 80px auto;
+  color: #fff4dd;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+#author {
+  margin: 0 0 1rem;
+  opacity: 0.7;
+}
+
+p {
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 16px;
+  border: 1px solid #fff4dd;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff4dd;
+  color: #1f305e;
+}
+
+#archive {
+  margin-top: 2rem;
+  opacity: 0.7;
+}
