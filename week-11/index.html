@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSONPlaceholder's Top Users</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>JSONPlaceholder's Top Users</h1>
+    <p class="lede">
+      JSONPlaceholder is a free fake API with sample users, posts, and comments
+      for practicing fetch requests. Click a name to read one of their posts.
+    </p>
+    <p id="status">Looking through the pile...</p>
+  </header>
+
+  <section aria-labelledby="table-heading">
+    <h2 id="table-heading">Authors by word count</h2>
+    <table>
+      <caption>
+        Total words in each author's ten JSONPlaceholder posts
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Author</th>
+          <th scope="col">Words</th>
+          <th scope="col">Posts</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </section>
+
+  <section id="thought" aria-live="polite">
+    <p id="author"></p>
+    <h2 id="thought-title">A post from this pile</h2>
+    <p id="description">Click an author to read one of their posts.</p>
+  </section>
+
+  <footer>
+    <p>
+      Data from
+      <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
